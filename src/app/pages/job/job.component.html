@@ -1,0 +1,9 @@
+<section class="job">
+  <app-job-list [jobData]="jobData"></app-job-list>
+  <div *ngIf="loading">
+    <p>Cargando información...</p>
+  </div>
+  <div *ngIf="!loading && !jobData.length">
+    No hay elementos para mostrar
+  </div>
+</section>

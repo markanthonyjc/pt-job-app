@@ -1,0 +1,9 @@
+<div class="job-item" >
+    <app-job-item-image [image]="job.company.image"></app-job-item-image>
+    <div>
+        <app-job-item-company [company]="job.company"></app-job-item-company>
+        <app-job-item-info [job]="job"></app-job-item-info>
+    </div>
+    <hr/>
+    <app-job-item-skill class="job-item-skill" [skills]="job.skills"></app-job-item-skill>
+</div>

@@ -1,0 +1,19 @@
+.job-item-company {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+
+    >p {
+        font-weight: 700;
+    }
+
+    >.badges {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        align-items: center;
+    }
+}

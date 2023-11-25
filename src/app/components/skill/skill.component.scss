@@ -1,0 +1,13 @@
+.skill {
+    border-radius: 5px;
+    background-color: hsl(180, 52%, 96%);
+
+    padding: 0.5rem;
+    font-weight: 700;
+
+    &:hover {
+        cursor: pointer;
+        color: white;
+        background-color: hsl(180, 29%, 50%);
+    }
+}

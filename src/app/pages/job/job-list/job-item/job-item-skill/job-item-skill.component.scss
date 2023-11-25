@@ -1,0 +1,21 @@
+.job-item-skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-grow: 1;
+}
+
+@media (width < 768px) {
+    .job-item-skill {
+        justify-content: left;
+        align-items: start;
+
+        > * {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}

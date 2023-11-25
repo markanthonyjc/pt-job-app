@@ -1,0 +1,6 @@
+<div class="job-item-company">
+    <p>{{company.name}}</p>
+    <div class="badges">
+        <app-badge [name]="badge" *ngFor="let badge of company.badges"></app-badge>
+    </div>
+</div>

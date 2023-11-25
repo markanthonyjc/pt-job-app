@@ -1,0 +1,9 @@
+.job-item-image {
+    // margin-top: -40px;
+
+    > img {
+        border-radius: 50%;
+        //width: 50px;
+        object-fit: cover;
+    }
+}
